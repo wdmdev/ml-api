@@ -19,4 +19,6 @@ def get_animals():
         'tusk weight': '140 kg'
     })
 
-app.run()
+if __name__ == '__main__':
+    # Run as localhost on port 9007
+    app.run(host='0.0.0.0', port=5001)

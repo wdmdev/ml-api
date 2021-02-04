@@ -154,8 +154,3 @@ dmypy.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
-
-.csv
-
-# Don't want the model, since a new can be trained very quickly
-.pkl 
